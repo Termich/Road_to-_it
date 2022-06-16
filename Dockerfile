@@ -1,3 +1,1 @@
-FROM nginx 1.22
-
-Test
+﻿FROM nginx 1.22
