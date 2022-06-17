@@ -1,4 +1,4 @@
-FROM  nginx:1.22.0
+FROM  nginx 1.22
 # Отдал команду в главный файл 
 RUN echo 'hostname' > /var/www/html/index.html
   
