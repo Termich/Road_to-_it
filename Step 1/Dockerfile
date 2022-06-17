@@ -1,7 +1,7 @@
 FROM  nginx 1.22
- 
-# Создаем тестовую 
+# Отдал команду в главный фалй 
 RUN echo 'hostname' > /var/www/html/index.html
   
-# Указываем порт
+COPY html /usr/share/nginx/html
+
 EXPOSE 8080
